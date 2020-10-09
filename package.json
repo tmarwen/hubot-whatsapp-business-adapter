@@ -1,0 +1,47 @@
+{
+  "name": "hubot-whatsapp-business",
+  "version": "0.0.1",
+  "description": "A Hubot adapter for WhatsApp Business API",
+  "main": "src/whatsapp-business.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmarwen/hubot-whatsapp-business.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-adapter",
+    "hubot-whatsapp-adapter",
+    "whatsapp",
+    "whatsapp-business-api"
+  ],
+  "author": {
+    "name": "Marouane Trabelsi",
+    "url": "https://tmarwen.github.io"
+  },
+  "contributors": [
+    {
+      "name": "Marouane Trabelsi",
+      "email": "marouane.trab@gmail.com"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tmarwen/hubot-whatsapp-business/issues"
+  },
+  "homepage": "https://github.com/tmarwen/hubot-whatsapp-business#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parent-require": "^1.0.0",
+    "qs": "^6.9.4",
+    "request": "^2.88.2"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  }
+}
